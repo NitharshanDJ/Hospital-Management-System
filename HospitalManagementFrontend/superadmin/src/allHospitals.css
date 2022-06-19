@@ -1,0 +1,71 @@
+.adminAllHospitals__container {
+  width: 95%;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+}
+.adminAllHospitals__hospitalsList {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.adminAllHospitals__hospital {
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  background-color: var(--light);
+  height: 100px;
+  margin: 5px auto;
+  padding: 5px 10px;
+}
+
+.hospital_name {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+.hospital_shortCode {
+  margin-left: 5px;
+  color: white;
+  border-radius: 5px;
+  background-color: var(--orange);
+  padding: 2px 5px;
+  width: 60px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.addNewHospital__wrapper {
+  padding: 10px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+  .adminAllHospitals__hospital {
+    min-width: 100%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .adminAllHospitals__hospital {
+    min-width: 400px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

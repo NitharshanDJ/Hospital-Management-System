@@ -1,0 +1,106 @@
+.adminHospitalDetails__container {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  padding: 0 5px;
+  grid-template-columns: 1.3fr 3fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: flex-start;
+}
+.adminHospitalDetails__banner {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.035);
+}
+.adminHospitalDetails__users {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.035);
+}
+
+.adminHospitalDetails__name {
+  background-color: var(--orange);
+  padding: 5px 3px;
+  text-align: center;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.adminHospitalDetails__delete {
+  background-color: var(--red);
+  padding: 5px 3px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  width: 100%;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  border-radius: 5px;
+  height: 300px;
+  width: 100%;
+}
+.adminHospitalDetails__bed i {
+  margin-right: 5px;
+}
+.adminHospitalDetails__bed {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+}
+.adminHospitalDetails__beds {
+  font-weight: 800;
+  color: var(--blue);
+}
+
+.adminHospitalDetails__newPassword {
+  width: 95%;
+  margin-right: auto;
+}
+
+.adminHospitalDetails__newPassword + i {
+  cursor: pointer;
+  margin-right: auto;
+}
+.adminHospitalDetails__user {
+  padding: 10px 0;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .adminHospitalDetails__container {
+    grid-template-columns: 100%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+}

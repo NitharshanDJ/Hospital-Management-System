@@ -1,0 +1,12 @@
+main {
+  margin-top: 75px;
+}
+body {
+  background-color: #f8f9fa;
+}
+.navbar {
+  background-color: white;
+}
+.nav-link.active {
+  font-weight: 600;
+}

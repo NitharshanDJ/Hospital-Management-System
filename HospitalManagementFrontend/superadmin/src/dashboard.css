@@ -1,0 +1,114 @@
+.adminDashboard_banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 98%;
+  column-gap: 10px;
+  margin: 0 auto;
+}
+.adminDashboard_stats {
+  display: grid;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.05);
+  padding-top: 65px;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  grid-gap: 5px;
+}
+
+.adminDashboard_stats > div {
+  display: flex;
+}
+
+.adminDashboard_statsCard {
+  height: 80%;
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+}
+.adminDashboard_bannerTitle {
+  position: absolute;
+  width: 100%;
+  top: 5px;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+.adminDashboard_banner_actions {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.adminDashboard__banner__hospitalList {
+  height: 100%;
+  width: 100%;
+  padding: 10px 20px;
+}
+.adminDashboard__banner__searchHospital {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 0.5fr;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+.adminDashboard__loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 15px 0;
+  min-height: 250px;
+  justify-content: center;
+}
+
+.adminDashboard__banner__hospital {
+  width: 95%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminDashboard__hospital_title {
+  font-weight: 600;
+}
+.adminsDashboard_background img {
+  width: 100%;
+}
+.adminsDashboard_background {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+  .adminDashboard_statsCard h1 {
+    font-size: 2em;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .adminDashboard_banner {
+    grid-template-columns: 100%;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .adminsDashboard_background {
+    display: block;
+  }
+}
